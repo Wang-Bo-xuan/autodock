@@ -1,0 +1,1 @@
+LSLaserScan[] sensor

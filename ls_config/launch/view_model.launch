@@ -1,0 +1,8 @@
+<launch>
+    <arg name="urdf_file" default="$(find xacro)/xacro --inorder '$(find ls_model)/urdf/ls_model_standalone.urdf.xacro'"/>
+    <param name="robot_description" command="$(arg urdf_file)"/>
+
+    <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher"/>
+
+     <node name="rviz" pkg="rviz" type="rviz" args="-d $(find ls_config)/rviz/view_model.rviz"/>
+</launch>

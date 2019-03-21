@@ -1,0 +1,6 @@
+laser_min_range: 0.1
+laser_process_group: 4
+laser_spread: 1
+laser_group_threshold: 0.012
+laser_filter: 1
+laser_fitler_threshold: 3

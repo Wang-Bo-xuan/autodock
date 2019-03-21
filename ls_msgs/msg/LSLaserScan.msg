@@ -1,0 +1,11 @@
+uint64 index
+float64 angle
+float64 angle_min
+float64 angle_max
+float64 range
+float64 range_min
+float64 range_max
+float64 intensity
+float64 x
+float64 y
+float64 z

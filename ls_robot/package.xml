@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>ls_robot</name>
+  <version>0.1.0</version>
+  <description>ls_robot metapackage</description>
+  <maintainer email="wangboxuan@todo.todo">wangboxuan</maintainer>
+  <license>LGPLv3</license>
+  <author >wangboxuan</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>ls_config</exec_depend>
+  <exec_depend>ls_msgs</exec_depend>
+  <exec_depend>ls_autodock</exec_depend>
+  <exec_depend>ls_controller</exec_depend>
+  <exec_depend>ls01B</exec_depend>
+
+  <export>
+    <metapackage />
+  </export>
+</package>

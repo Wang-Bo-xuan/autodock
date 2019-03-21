@@ -1,0 +1,12 @@
+<launch>
+    <group ns="ls_controller/">
+        <rosparam file="$(find ls_config)/config/ls_controller/ls_step_controller.yaml" command="load"/>
+
+        <node name="ls_step_controller_node" pkg="ls_controller" type="ls_step_controller" output="screen" >
+            <remap from="odom" to="/odom" />
+            <remap from="mobile_base/commands/velocity" to="/mobile_base/commands/velocity" />
+            <remap from="LSStepController/action_topics" to="/LSStepController" />
+        </node>
+    </group>
+
+</launch>

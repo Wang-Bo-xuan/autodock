@@ -1,0 +1,4 @@
+<launch>
+    <include file="$(find ls_config)/launch/ls_laser_sensor.launch" />
+    <include file="$(find ls_config)/launch/ls_autodock.launch" />
+</launch>

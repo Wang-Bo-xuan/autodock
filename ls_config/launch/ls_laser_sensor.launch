@@ -1,0 +1,10 @@
+<launch>
+    <group ns="ls_laser_sensor">
+        <rosparam file="$(find ls_config)/config/ls_laser_sensor/ls_laser_sensor.yaml" command="load"/>
+
+        <node name="ls_laser_sensor_node" pkg="ls_laser_sensor" type="laser_sensor" output="screen" >
+            <remap from="scan" to="/scan" />
+        </node>
+    </group>
+
+</launch>

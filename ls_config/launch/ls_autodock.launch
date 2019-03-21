@@ -1,0 +1,15 @@
+<launch>
+    <group ns="ls_autodock">
+        <rosparam file="$(find ls_config)/config/ls_autodock/ls_autodock.yaml" command="load"/>
+
+        <node name="autodock_node" pkg="ls_autodock" type="autodock" output="screen">
+            <remap from="command" to="/charge_server/cmd" />
+            <remap from="result" to="/charge_server/feedback" />
+	</node>
+        <node name="sawtooth_detecter_node" pkg="ls_autodock" type="sawtooth_detecter" output="screen" >
+            <remap from="laser_sensor" to="/ls_laser_sensor/laser_sensor" />
+        </node>
+        <!--node name="rviz_node" pkg="rviz" type="rviz" args="-d $(find ls_config)/rviz/ls_autodock.rviz" output="screen" /-->
+    </group>
+
+</launch>

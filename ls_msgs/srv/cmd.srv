@@ -1,0 +1,4 @@
+int64 cmd
+string str
+---
+int64 result

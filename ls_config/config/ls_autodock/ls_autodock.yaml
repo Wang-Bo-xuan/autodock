@@ -1,0 +1,6 @@
+sawtooth_detecter_node/line_k_threshold: 0.2
+sawtooth_detecter_node/line_b_threshold: 0.05
+sawtooth_detecter_node/first_baffle_length: 0.035
+sawtooth_detecter_node/second_baffle_length: 0.07
+sawtooth_detecter_node/third_baffle_length: 0.035
+sawtooth_detecter_node/baffle_length_difference: 0.02

@@ -1,0 +1,12 @@
+uint8 ctrl_type
+uint8 line=1
+uint8 rot=2
+float64 value
+---
+uint8 res_type
+uint8 successed=1
+uint8 failed=2
+---
+uint8 feed_type
+uint8 good=1
+uint8 bad=2

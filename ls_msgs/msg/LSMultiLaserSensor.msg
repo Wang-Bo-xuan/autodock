@@ -1,0 +1,1 @@
+LSLaserSensor[] multiSensor

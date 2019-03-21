@@ -1,0 +1,9 @@
+ls_step_controller_node/line_min_range: 0.0
+ls_step_controller_node/line_max_range: 1.0
+ls_step_controller_node/rot_min_angle: -3.14
+ls_step_controller_node/rot_max_angle: 3.14
+ls_step_controller_node/move_min_step_length: 0.005
+ls_step_controller_node/move_min_step_angle: 0.0008
+ls_step_controller_node/move_max_step_angle: -0.0008
+ls_step_controller_node/length_pid_control_param_p: 1.0
+ls_step_controller_node/angle_pid_control_param_p: 1.0

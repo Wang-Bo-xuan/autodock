@@ -1,0 +1,15 @@
+<package>
+<name>ls_config</name>
+<version>0.0.1</version>
+<description>ls_config</description>
+<maintainer email="xuanbowang@lslidar.com">wangbx</maintainer>
+<license>LGPL</license>
+<author>wangbx</author>
+
+<buildtool_depend>catkin</buildtool_depend>
+
+<export>
+
+</export>
+
+</package>
